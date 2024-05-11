@@ -2,6 +2,7 @@ package smartbox;
 import mvc.*;
 
 import java.beans.PropertyChangeEvent;
+import java.util.Collection;
 
 public class ContainerView extends View {
 
@@ -15,9 +16,14 @@ public class ContainerView extends View {
 
     @Override
     public void update() {
+        components.removeAll();
         Container container = (Container)model;
         System.out.println("updated");
-        System.out.println(container.getComponents());
+        Collection<Component> collection = (container.getComponents());
+
+        for(Component component: collection){
+            components.add(component.getClass().getSimpleName());
+        }
     }
 
     // etc.
