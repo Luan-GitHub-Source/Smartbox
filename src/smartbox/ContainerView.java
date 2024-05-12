@@ -18,11 +18,10 @@ public class ContainerView extends View {
     public void update() {
         components.removeAll();
         Container container = (Container)model;
-        System.out.println("updated");
         Collection<Component> collection = (container.getComponents());
 
         for(Component component: collection){
-            components.add(component.getClass().getSimpleName());
+            components.add(component.name);
         }
     }
 

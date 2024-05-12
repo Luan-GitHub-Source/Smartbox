@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="856dd149-9280-42bb-9737-7dd3fda886c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/smartbox/components/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartbox/components/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartbox/components/MathMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SmartBoxStable/mvc/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartBoxStable/mvc/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartBoxStable/mvc/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartBoxStable/mvc/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SmartBoxStable/smartbox/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartBoxStable/smartbox/Component.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SmartBoxStable/smartbox/ContainerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SmartBoxStable/smartbox/ContainerView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartbox/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartbox/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartbox/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartbox/Component.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smartbox/ContainerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartbox/ContainerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

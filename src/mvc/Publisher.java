@@ -18,7 +18,6 @@ public class Publisher {
     public void notifySubscribers() {
         for (Subscriber subscriber : subscribers){
             subscriber.update();
-            System.out.println(subscriber.getClass().toString());
         }
 
 
